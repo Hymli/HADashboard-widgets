@@ -1,0 +1,20 @@
+widget_type: base_cover_slider
+entity: "{{entity}}"
+look: "#d3d3d3"
+hideGrass: 0
+bar_color: "black"
+post_service_position:
+    service: cover/set_codver_position
+    entity_id: "{{entity}}"
+fields:
+  title: "{{title}}"
+  title2: ""
+  State: ""
+  Position: ""
+openingTrans: "opening"
+closingTrans: "closing"
+static_css:
+  title_style: $cover_slider_title_style
+  title2_style: $cover_slider_title2_style
+  slider_style: $cover_slider_slider_style
+  widget_style: $cover_slider_widget_style
