@@ -4,7 +4,7 @@ look: "#d3d3d3"
 hideGrass: 0
 bar_color: "black"
 post_service_position:
-    service: cover/set_codver_position
+    service: cover/set_cover_position
     entity_id: "{{entity}}"
 fields:
   title: "{{title}}"
