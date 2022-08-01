@@ -8,7 +8,7 @@ Widgets for HADashboard / Appdaemon
 
  
  ## Installation
- Place the file and folder in ```[appdaemon config folder]/custom_widgets/```
+ Place the ```custom_widgets/``` folder in your appdaemon config folder.
  
  ## Configuration:
  
